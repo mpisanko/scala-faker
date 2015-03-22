@@ -1,14 +1,15 @@
-I refuse to not use automation and run the project + tests by hand! Hence SBT.
-The tests are missing, as I didn't spend enough time ironing out proper dependency injection (especially the random parts)
-To run: sbt "run <FILE_PATH>"
-To test: sbt test 
-
 ASSUMPTIONS:
  - only consider sentences (do not continue past end of sentence)
  - start at random offset - proceed to next space and take text from there till one of <.?!>
  - maximum fake sentence length is 50 words
  - exceptions bubble up w/o handling them
  - tests are rudimentary - using generative testing could be useful
+
+I refuse to not use automation and run the project + tests by hand! Hence SBT.
+The tests are missing, as I didn't spend enough time ironing out proper dependency injection (especially the random parts)
+To run: sbt "run <FILE_PATH>"
+To test: sbt test 
+
 
 Fake Text Creation Exercise:
  
